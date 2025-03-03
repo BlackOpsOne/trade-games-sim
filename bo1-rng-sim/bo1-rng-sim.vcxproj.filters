@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Simulations">
+      <UniqueIdentifier>{d5e94b11-e11b-4f18-bd8d-1c466f2c0cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GRand">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{fb6f3a6d-19bb-4cdf-9ddc-29a42e5b9266}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="g_rand.hpp">
+      <Filter>GRand</Filter>
+    </ClInclude>
+    <ClInclude Include="drops.hpp">
+      <Filter>Simulations</Filter>
+    </ClInclude>
+    <ClInclude Include="stats.hpp">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="box.hpp">
+      <Filter>Simulations</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drops.cpp">
+      <Filter>Simulations</Filter>
+    </ClCompile>
+    <ClCompile Include="g_rand.cpp">
+      <Filter>GRand</Filter>
+    </ClCompile>
+    <ClCompile Include="stats.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>Simulations</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
